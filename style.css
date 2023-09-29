@@ -1,0 +1,160 @@
+@font-face{
+    font-family:trade-gothic;
+    src: url("assets/fonts/Trade Gothic LT.ttf");
+}
+*{
+   margin: 0;
+   padding: 0;
+}
+a{
+   text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+   margin: 0;
+}
+/* FONT CLASSES */
+.font-bld{
+   font-family: BlenderPro-Bold;
+}
+.font-md{
+   font-family: "Blender Pro Medium";
+}
+.font-hvy{
+   font-family: "Blender Pro Heavy";
+}
+.font-sec{
+   font-family:trade-gothic;
+}
+.clr-p{
+   color: #f60;
+   background-color: #f60;
+}
+.bg-sec{
+   background-color: #232323;
+   height: 120vh;
+}
+.clr-p2{
+   background-color: #002550
+}
+.clr-s{
+   color: rgb(255, 255, 255);
+}
+.body-txt{
+   font-size: 18px;
+}
+.li-h{
+   line-height: 216%;
+}
+/* CAROUSEL SECTIONS GENERAL CLASSES */
+.sec-heds{
+   font-family: "Blender Pro Heavy";
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+}
+.car-subt{
+   color: #f60;
+   font-size: 21px;
+    font-family: "Blender Pro Heavy";
+}
+.car-title{
+   color:white ;
+   font-size: 38px;
+    font-family: "Blender Pro Heavy";
+}
+.car-body{
+   color:white;
+   line-height: 216%;
+    font-size: 18px;
+   font-family:trade-gothic;
+}
+/* SECTION-1 */
+.nav-link:hover{
+    color: inherit;
+}
+@media screen and (min-width: 996px) {
+    #s1{
+        background-image: url("assets/Images/s1-img-trial.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+   }
+}
+@media screen and (max-width: 996px) {
+    #s1{
+        background-image: url("assets/Images/s1-img-md.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+       text-align: center;
+   }
+  
+   #s1-cont {
+ 
+    align-items: center;
+}
+}
+#nav1{
+   font-size: 20px;
+}
+#s1-btn{
+   height: 30px;
+   width:203px;
+   margin-left: 14px;
+}
+#s1-cont{
+   margin-top: 152px;
+   margin-left: 24px;
+}
+#s1-cont h1{
+   font-size: 88px;
+}
+#s1-cont h3{
+   font-size: 24px;
+}
+/* SECTION-2 */
+#s2{
+   height: 140vh;
+    background: radial-gradient(75.49% 57.39% at 50% 47.11%,#3f3f3f 0,#171717 100%);
+}
+#s2{
+   height: 130vh;
+    background: radial-gradient(75.49% 57.39% at 50% 47.11%,#3f3f3f 0,#171717 100%);
+}
+#l-top h1{
+   font-size: 66px;
+}
+.clor-box{
+   width: 20px;
+   height:20px;
+}
+/* SECTION-3 */
+/* FOOTER */
+footer h3{
+   font-family: "Blender Pro Heavy";
+   color:white;
+}
+footer a{
+   font-family:trade-gothic;
+   text-decoration: none;
+    color:white;
+   font-size: 17px;
+}
+footer a:hover{
+   color:white;
+}
+footer ul{
+   list-style: none;
+   padding: 0;
+   margin-top: 25px;
+}
+footer li{
+   margin-top: 5px;
+}
+footer li img{
+   width: 26px;
+   margin-right: 10px;
+}
+#yut{
+   width: 36px;
+}
+
